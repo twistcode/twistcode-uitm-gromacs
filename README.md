@@ -5,7 +5,7 @@ This repo shall curate all documents, configuration files and setup on running `
 
 ## Main Objective
 
-1) To have reproducible documents related to setting-up `gromacs` using NVIDIA gpu or docker which can be access by twistcode or Dr Siti Azma teams
+1) To have reproducible documents related to setting-up `gromacs` using NVIDIA gpu or docker which can be access by twistcode or Dr [Siti Azma](https://pharmacy.uitm.edu.my/index.php/corporate/staff-directory/27-corporate/staff-directory/93-dr-siti-azma-jusoh-yusof) teams
 
 2) to make the work accessible and clear for all users (especially for newcomers)
 
