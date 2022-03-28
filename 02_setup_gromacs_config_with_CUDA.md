@@ -111,7 +111,7 @@ cd gromacs-2022
 mkdir build
 cd build
 
-cmake .. -DGMX_BUILD_OWN_FFTW=ON -DREGRESSIONTEST_DOWNLOAD=ON -DGMX_GPU=CUDA -DCMAKE_INSTALL_PREFIX=/home/superfly/mygromacs
+cmake .. -DGMX_BUILD_OWN_FFTW=ON -DREGRESSIONTEST_DOWNLOAD=ON -DGMX_GPU=CUDA -DGMX_MPI=ON -DCMAKE_INSTALL_PREFIX=/home/superfly/mygromacs
 time make -j$(nproc)
 sudo make install
 ```
@@ -132,7 +132,7 @@ export PATH=${CUDA_HOME}/bin:${GROMACS}/bin:${PATH}
 3) Logout and login again. And type:
 
 ```bash
-gmx pdb2gmx --version
+gmx_mpi pdb2gmx --version
 ```
 and you should get some output
 
